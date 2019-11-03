@@ -1,24 +1,29 @@
+body{
+  text-align: center;
+}
 #one{
   background-image: url('01.jpg');
-  height:100vh;
+    height:100vh;
   background-size: cover;
-}
-h1{
-  text-align: center;
-  color: white
 
-}
-.mia{
-  text-align: center;
-display: flex;
-justify-content: center;
-padding-top: 240px;
-}
-p{
-  text-align: center;
   color: white;
 }
+.mia{
+    color: white
+     display: flex;
+    justify-content: center;
+    padding-top: 240px;
+}
 #mia2{
-text-align: center;
-padding-top:110px;
+    padding-top:110px;
+}
+#uno{
+  padding-bottom: 3px;
+    color: black
+}
+#two{
+    background-image: url('s_image.jpg');
+    height:50vh;
+    background-size: cover;
+    color: white
 }
