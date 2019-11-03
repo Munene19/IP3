@@ -1,5 +1,6 @@
 body{
   text-align: center;
+
 }
 #one{
   background-image: url('01.jpg');
@@ -22,8 +23,42 @@ body{
     color: black
 }
 #two{
+  font-size: 15px;
+  text-align: center;
     background-image: url('s_image.jpg');
     height:50vh;
     background-size: cover;
     color: white
+
+
+}
+.container
+{
+  position: relative;
+  width: 1200px
+  height:300px
+  margin:240px auto;
+}
+.box
+{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(400px - 300px);
+  background: black;
+  float:left;
+  margin: 15px
+  box-sizing: border-box;
+  border-radius:10px;
+}
+h2{
+  font-size: 20px
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 20px;
+}
+h5{
+  font-size: 20px;
 }
