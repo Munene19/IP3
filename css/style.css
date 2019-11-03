@@ -29,8 +29,6 @@ body{
     height:50vh;
     background-size: cover;
     color: white
-
-
 }
 .container
 {
@@ -44,7 +42,6 @@ body{
   position: relative;
   width: calc(400px - 30px);
   height: calc(400px - 300px);
-  background: black;
   float:left;
   margin: 15px
   box-sizing: border-box;
@@ -61,4 +58,29 @@ h4{
 }
 h5{
   font-size: 20px;
+}
+h6{
+font-size: 20px;
+}
+#three{
+  height:150px
+max-width: 100%
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+
+}
+#four{
+    background-image: url('c_image.jpg');
+      height:100vh;
+    background-size: cover;
+    color:white;
 }
