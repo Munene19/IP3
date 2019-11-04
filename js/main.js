@@ -1,14 +1,38 @@
   $(document).ready(function(){
-    $('#icon1').click(function(){
+    $('#design1').click(function(){
       $('#IO').show();
   });
-  $('#icon1').click(function(){
-    $('#icon1').hide();
+  $('#design1').click(function(){
+    $('#design1').hide();
 });
 $('#IO').click(function(){
-  $('#icon1').show();
+  $('#design1').show();
 });
 $('#IO').click(function(){
   $('#IO').hide();
+});
+$('#design2').click(function(){
+  $('#IP').show();
+});
+$('#design2').click(function(){
+$('#design2').hide();
+});
+$('#IP').click(function(){
+$('#design2').show();
+});
+$('#IP').click(function(){
+$('#IP').hide();
+});
+$('#design3').click(function(){
+  $('#IQ').show();
+});
+$('#design3').click(function(){
+$('#design3').hide();
+});
+$('#IQ').click(function(){
+$('#design3').show();
+});
+$('#IQ').click(function(){
+$('#IQ').hide();
 });
   });

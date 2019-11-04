@@ -2,15 +2,16 @@ body{
   text-align: center
 
 }
-#one{
+#home{
   background-image: url('01.jpg');
     height:100vh;
+    justify-content: center;
   background-size: cover;
-
   color: white;
 }
+
 .mia{
-    color: white
+    color: white;
      display: flex;
     justify-content: center;
     padding-top: 240px;
@@ -33,9 +34,9 @@ body{
 .container
 {
   position: relative;
-  width: 1200px
-  height:300px
-  margin:240px auto;
+  width: 1200px;
+  height:120px;
+  margin:240 auto;
 }
 .box
 {
@@ -43,7 +44,7 @@ body{
   width: calc(400px - 30px);
   height: calc(400px - 300px);
   float:left;
-  margin: 15px
+  margin: 15px;
   box-sizing: border-box;
   border-radius:10px;
 }
@@ -58,13 +59,18 @@ h4{
 }
 h5{
   font-size: 20px;
+
+}
+span h5{
+  font-size: 20px;
+  margin-top: 15%;
 }
 h6{
 font-size: 20px;
 }
 #three{
-  height:150px
-max-width: 100%
+  height:150px;
+  max-width:100%;
 }
 .port , .port1{
   display: flex;
@@ -85,6 +91,10 @@ max-width: 100%
   display: flex;
   justify-content: center;
 }
+#IO P{
+  font-size: 15px;
+  text-align: center;
+}
 
 #IO{
   display: none;
@@ -92,8 +102,14 @@ max-width: 100%
 #IQ{
   display: none;
 }
+#IQ p{
+  text-align: center;
+}
 #IP{
   display: none;
+}
+#IP p{
+  text-align: center;
 }
 #design1{
   justify-content: center;
