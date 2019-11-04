@@ -89,3 +89,29 @@ max-width: 100%
 #IO{
   display: none;
 }
+#IQ{
+  display: none;
+}
+#IP{
+  display: none;
+}
+#design1{
+  justify-content: center;
+margin-left: -5vw;
+  margin-top:-2%
+}
+#design2{
+  justify-content: center;
+ margin-left:0vw;
+ margin-top: -2%;
+
+}
+#design3{
+  justify-content: center;
+  margin-left: 10vw;
+  margin-top: -2%;
+}
+.row h4{
+  margin-top:2%;
+  font-weight: bold;
+}

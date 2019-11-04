@@ -1,7 +1,14 @@
   $(document).ready(function(){
-    $("#icon_one").click(function(){
-      $('#IO').toggle();
-      $('#icon_one').toggle();
-
-    });
+    $('#icon1').click(function(){
+      $('#IO').show();
+  });
+  $('#icon1').click(function(){
+    $('#icon1').hide();
+});
+$('#IO').click(function(){
+  $('#icon1').show();
+});
+$('#IO').click(function(){
+  $('#IO').hide();
+});
   });
