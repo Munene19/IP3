@@ -8,6 +8,10 @@ body{
     justify-content: center;
   background-size: cover;
   color: white;
+  align-items: center;
+  padding: 210px;
+  
+
 }
 
 .mia{
@@ -15,6 +19,7 @@ body{
      display: flex;
     justify-content: center;
     padding-top: 240px;
+    margin-top: 30%;
 }
 #mia2{
     padding-top:110px;
@@ -130,4 +135,7 @@ margin-left: -5vw;
 .row h4{
   margin-top:2%;
   font-weight: bold;
+}
+.contacts{
+  color: white;
 }

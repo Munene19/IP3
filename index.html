@@ -134,19 +134,37 @@ Thoughout your project, our designers create and implement visual design and wor
 <br>
 <br>
 
-<div id="four">
-  <h6>CONTACT US</h6>
-
-  <input type='text' >
+<div class="container-fluid">
+  <div class="contacts">
+    <div id="four">
+      <br>
+      <br>
+  <h6>CONTACT US</h6> 
+  <br>
   <br>
 <form>
-  <label>Name</label>
-  <button class="button" onclick="myform"
+<div class="row">
+<div class="col-md-6">
+    <input type="text" class="form-control" id="name" placeholder="Name..."
+    style="background-color: transparent;" style="text-emphasis-color: white">
+</div>
+    <div class="col-md-6">
+    <input type="text" class="form-control" id="Email" placeholder="Email..."
+    style="background-color: transparent;" style="text-emphasis-color: white">
+  </div>
+  </div>
+  <br>
+  <br>
+<textarea class="form-control" rows="9" placeholder="Your message here..."
+style="background-color: transparent" style="text-emphasis-color: white" id="Message"></textarea>
+<br><br>
+<button type="button" id="submit" class="btn btn-primary">submit</button>
 </form>
-
+</div>
+</div>
 </div>
 <br>
-<div id= "six">
+<div class="footer" id= "six">
   <img src="img/twitter.png" alt="twitter-icon">&nbsp;&nbsp;&nbsp;
   <img src="img/dribble.png" alt="dribble-icon">&nbsp;&nbsp;&nbsp;
   <img src="img/g_plus.png" alt="google_plus-icon">&nbsp;&nbsp;&nbsp;
