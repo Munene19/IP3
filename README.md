@@ -1,5 +1,6 @@
 # DELANI STUDIO
 ## Screenshot
+![](studio)
 ## Description 
 By Contributor **Mike Munene**
 ### live link: https://munene19.github.io/IP3/
