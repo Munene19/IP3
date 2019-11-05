@@ -139,3 +139,21 @@ margin-left: -5vw;
 .contacts{
   color: white;
 }
+.work{
+display: flex;
+justify-content: center;
+position: relative;
+}
+.description{
+  position: absolute;
+  text-align: center;
+  color: black;
+  border: 2px solid white;
+  margin-top: 80px;
+  height: 80px;
+  padding: 30px;
+  display: none;
+  background-color: white;
+  
+
+}
