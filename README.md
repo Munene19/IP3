@@ -1,7 +1,7 @@
 # DELANI STUDIO
 ## Screenshot
 
-![](studio)
+<img src="studio.jpg">
 
 ## Description 
 By Contributor **Mike Munene**
